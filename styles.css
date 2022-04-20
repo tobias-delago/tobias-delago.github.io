@@ -1,14 +1,33 @@
 @font-face {
-    font-family: 'open_sans_lightregular';
+    font-family: "custom";
     src: url('OpenSans_Font/opensanslight-webfont.woff2') format('woff2'),
-         url('OpenSans_Font/opensanslight-webfont.woff') format('woff');
+         url('OpenSans_Font/opensanslight-webfont.woff') format('woff'),
+         url('OpenSans_Font/OpenSansLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
-h2 {
+* {
+    font-family: "custom";
+}
+
+h1 {
     color: goldenrod;
-    font-family: 
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color:inherit;
+    text-decoration: none;
+}
+
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+a[href^="mailto"]{
+    color:inherit;
+    text-decoration:none;
 }
