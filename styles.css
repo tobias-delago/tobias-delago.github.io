@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'open_sans_lightregular';
+    src: url('OpenSans_Font/opensanslight-webfont.woff2') format('woff2'),
+         url('OpenSans_Font/opensanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 h2 {
     color: goldenrod;
+    font-family: 
 }
