@@ -99,7 +99,6 @@ a:hover[href^="mailto"]{
 
 /*Logo Toko Large Style*/
 .logo_large{
-    box-sizing: border-box;
     padding: 0;
     width:75%;
     height:auto;
