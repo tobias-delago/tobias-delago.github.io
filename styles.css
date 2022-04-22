@@ -19,7 +19,6 @@ body, html{
 /*Activating open_sans for all + padding incl.*/
 * {
     font-family: "open_sans";
-    box-sizing: border-box;
 }
 
 
@@ -72,6 +71,7 @@ html {
 /* Fix footer at bottom*/
 footer {
     position: absolute;
+    padding: 0;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -143,6 +143,7 @@ a:hover[href^="mailto"]{
     color: goldenrod;
     font-size: 12pt;
     list-style-type: none;
+    padding: 0;
 }
 
 /*Phone Icon Style*/
@@ -179,6 +180,39 @@ a:hover[href^="mailto"]{
 
 /*------------------------------------------------- Formatting additional pages --------------------------------------------------------*/
 
+/*Text not over footer*/
+.text_container{
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top:120px;
+    margin-bottom:120px;
+    margin-right:80px;
+    margin-left:80px;
+    padding: 10px;
+    overflow: auto;
+      
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.text_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .text_container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.text_overflow{
+    overflow: auto;
+}
+
 /*Fixed header footer*/
 .fixed_header{
     position: fixed;
@@ -192,12 +226,11 @@ a:hover[href^="mailto"]{
 }
 
 h1{
-    margin-top: 4em;
-    margin-left: 30px;
+    margin-top: -10px;
+    padding: 0;
     color: goldenrod;
 }
 
 p{
-    margin-left: 30px;
     color: #595959;
 }
