@@ -146,6 +146,10 @@ a:hover[href^="mailto"]{
     padding: 0;
 }
 
+.golden{
+    color: goldenrod;
+}
+
 /*Phone Icon Style*/
 .phone_icon{
     height: 15px;
@@ -171,7 +175,7 @@ a:hover[href^="mailto"]{
     padding: 0;
     position: absolute;
     top: 50%;
-    left: 49%;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
   }
