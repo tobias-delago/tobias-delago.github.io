@@ -146,6 +146,10 @@ a:hover[href^="mailto"]{
     padding: 0;
 }
 
+.golden{
+    color: goldenrod;
+}
+
 /*Phone Icon Style*/
 .phone_icon{
     height: 15px;
@@ -171,7 +175,7 @@ a:hover[href^="mailto"]{
     padding: 0;
     position: absolute;
     top: 50%;
-    left: 49%;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
   }
@@ -226,11 +230,34 @@ a:hover[href^="mailto"]{
 }
 
 h1{
-    margin-top: -10px;
-    padding: 0;
+    font-size: 24pt;
     color: goldenrod;
+}
+
+h2{
+    font-size: 16pt;
+    color: goldenrod;
+}
+
+h3{
+    font-size: 14pt;
+    color: #595959;
 }
 
 p{
     color: #595959;
+}
+
+li{
+    color: #595959;
+}
+
+.higher_title{
+    margin-top: -10pt;
+}
+
+.no_bullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
